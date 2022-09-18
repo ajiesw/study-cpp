@@ -1,3 +1,2 @@
 include_directories(.)
-
-add_executable(f2c f2c.cpp)
+add_executable(f2c F2c.cpp)
