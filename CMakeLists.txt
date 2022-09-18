@@ -6,3 +6,5 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(Cpp main.cpp)
 
 add_subdirectory(cpp01base)
+add_subdirectory(cpp02cincout)
+add_subdirectory(cpp03ReferencesPointers)

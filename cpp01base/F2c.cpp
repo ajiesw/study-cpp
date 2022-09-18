@@ -2,11 +2,17 @@
 // Created by kuer on 2022/9/17.
 //
 
-#include "f2c.h"
+#include "F2c.h"
 #include <iostream>
 using namespace std;
 int main()
 {
+    int a = 46;
+    short b = (short ) a;
+    long c = long (-32);
+    char c1 = 23;
+    char c2 = 41;
+    int c3 = c1 % c2;
     // 申请内存空间
     double ctemp, ftemp;
     // 从键盘输入华氏温度
