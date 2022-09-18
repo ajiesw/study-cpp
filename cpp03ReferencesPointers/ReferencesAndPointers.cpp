@@ -2,6 +2,7 @@
 // Created by kuer on 2022/9/18.
 //
 #include <iostream>
+#include "work03.h"
 
 void pointers01();
 
@@ -13,6 +14,7 @@ void pointers04();
 using namespace std;
 
 int main(){
+    factorial();
     int x;
     cin >> x;
 

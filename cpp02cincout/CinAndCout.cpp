@@ -1,10 +1,14 @@
 //
 // Created by kuer on 2022/9/18.
 //
+#include "work02.h"
 #include <iostream>
 using namespace std;
 
 int main(){
+
+    calc();
+
     double x;
     cout << "克与克拉和盎司的换算" << endl << "请输入克重" << endl;
 
