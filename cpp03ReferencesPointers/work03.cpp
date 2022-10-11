@@ -11,7 +11,6 @@ int factorial(){
     cout << "请输入N来求其阶乘" << endl;
     int N;
     cin >> N;
-
     int result = 1;
     while (N >= 1){
         result *= N--;
